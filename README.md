@@ -5,8 +5,10 @@ This is a personal learning project for Django and Django REST Framework.
 ## Requirements
 - Python 3.8.3
 - Django 3.0.6
-- djangorestframework 3.11.0
+- Django REST Framework 3.11.0
+- flake8 3.8.2
 - Docker
+- Travis CI
 
 ## Installation
 
