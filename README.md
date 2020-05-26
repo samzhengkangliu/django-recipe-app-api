@@ -15,7 +15,21 @@ This is a personal learning project for Django and Django REST Framework.
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Django.
 
 ```bash
-pip install Django
+docker-compose build
+```
+
+## Run & Test
+```bash
+docker-compose run app sh -c "python manage.py runserver 8000"
+```
+
+```bash
+docker-compose run app sh -c "python manage.py test"
+```
+
+Enable linting: 
+```bash
+docker-compose run app sh -c "python manage.py test && flake8"
 ```
 
 ## Contributing
